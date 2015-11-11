@@ -1,39 +1,38 @@
-<style>
+
  .slot > img {
   margin: 0!important;
   height: 71px;
   width: 50px;
  }
  .container {
-   background-color: #4a2b0f;
-   height: 400px;
-   width: 260px;
+   height: 530px;
+   width: 300px;
    margin: 50px auto;
    border-radius: 4px;
  }
  .header {
-   border: 2px solid #fff;
+   border: 2px solid #7382a2;
    border-radius: 4px;
    height: 55px;
    margin: 14px auto;
-   background-color: #457f86
+   background-color: #ce3333;
  }
  .header h2 {
-   height: 30px;
+   height: 50px;
    margin: auto;
  }
  .header h2 {
-   font-size: 14px;
+   font-size: 20px;
+   padding-top: 20px;
    margin: 0 0;
-   padding: 0;
    color: #fff;
    text-align: center;
  }
  .slots{
    display: flex;
-   background-color: #457f86;
+   background-color: #ce3333;
    border-radius: 6px;
-   border: 2px solid #fff;
+   border: 2px solid #7382a2;
  }
  .slot{
    flex: 1 0 auto;
@@ -48,21 +47,24 @@
  .go {
    width: 100%;
    color: #fff;
-   background-color: #457f86;
+   background-color: #ce3333;
    border: 2px solid #fff;
    border-radius: 2px;
    box-sizing: none;
    outline: none!important;
+   font-size: 25px;
  }
  .foot {
-   height: 150px;
-   background-color: 457f86;
+   height: 250px;
+   background-color: #ce3333;
    border: 2px solid #fff;
  }
- 
+
  .logger {
    color: white;
-   margin: 10px;
+   margin-left: 110px;
+   font-size: 40px;
+   text-align: center;
  }
  
  .outset {
@@ -76,4 +78,3 @@
    -moz-box-shadow: inset 0px 0px 15px -2px rgba(0,0,0,0.75);
    box-shadow: inset 0px 0px 15px -2px rgba(0,0,0,0.75);
  }
-</style>
